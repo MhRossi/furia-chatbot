@@ -1,0 +1,95 @@
+/* Estilos para a Sidebar */
+.sidebar {
+    width: 80px; /* Largura inicial recolhida */
+    background-color: #1a1a1a; /* Fundo escuro da sidebar */
+    color: #fff; /* Cor do texto/ícones padrão */
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s ease; /* Transição suave para animação */
+    overflow-x: hidden; /* Esconde conteúdo que exceder a largura */
+    flex-shrink: 0; /* Evita que a sidebar diminua além da sua largura */
+}
+
+/* Estado expandido da sidebar ao passar o mouse */
+.sidebar:hover {
+    width: 200px; /* Largura expandida */
+}
+
+.sidebar-logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar-logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: max-width 0.3s ease;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em; /* Tamanho base da fonte, ajuste se necessário */
+}
+
+/* Esconde os itens da lista (onde estão os ícones e texto) por padrão */
+.sidebar-nav li {
+    margin-bottom: 15px;
+    opacity: 0; /* Começa invisível */
+    transition: opacity 0.3s ease; /* Animação suave para aparecer */
+}
+
+/* Mostra os itens da lista quando a sidebar está em hover */
+.sidebar:hover .sidebar-nav li {
+    opacity: 1; /* Fica visível */
+}
+
+.sidebar-nav a {
+    color: #fff; /* Cor do texto e ícones (definida no ul, masPÚBLICA aqui também) */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-nav a:hover {
+    background-color: #424242; /* Cinza escuro no hover */
+}
+
+/* === ESTILOS PARA OS ÍCONES FONT AWESOME === */
+.sidebar-nav .fas {
+    /* Define explicitamente o tamanho do ícone */
+    font-size: 1.2em; /* Tamanho do ícone, ajuste para combinar com o texto */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    transition: margin-right 0.3s ease;
+    /* A cor do ícone é herdada do link ou do ul (color: #fff) */
+}
+/* ========================================= */
+
+/* Removido o seletor .sidebar-nav img */
+
+
+/* O texto já está configurado para aparecer no hover do sidebar */
+.sidebar-nav .nav-text {
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar:hover .sidebar-nav .nav-text {
+    opacity: 1;
+}
+
+/* Ajusta a margem do ícone (agora .fas) no estado expandido */
+.sidebar:hover .sidebar-nav .fas {
+    margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+:root {
+    --primary-bg: #000; /* Fundo completamente preto */
+    --chat-wrapper-bg: #1a1a1a; /* Fundo do contêiner principal do chat */
+    --header-footer-bg: #0d0d0d; /* Fundo do cabeçalho e rodapé do chat/página */
+    --input-bg: #333; /* Fundo do campo de input */
+    --border-color: #333; /* Cor de bordas e divisórias */
+    --bot-message-bg: #424242; /* Fundo das mensagens do bot */
+    --user-message-bg: #555; /* Fundo das mensagens do usuário */
+    --button-hover-bg: #555; /* Cor de fundo do botão no hover */
+    --text-color: #fff; /* Cor principal do texto */
+    --subtle-text-color: #bbb; /* Cor de texto mais sutil */
+    --placeholder-color: #aaa; /* Cor do placeholder no input */
+    --glow-color-low: rgba(255, 255, 255, 0.3); /* Cor para a animação de brilho (transparente baixo) */
+    --glow-color-high: rgba(255, 255, 255, 0.8); /* Cor para a animação de brilho (transparente alto) */
+    --focus-ring-color: rgba(255, 255, 255, 0.5); /* Cor para o anel de foco (se usar) */
+    --footer-height: 50px; /* Altura do rodapé, ajuste conforme necessário */
+    --font-main: 'Roboto', sans-serif; /* Fonte principal para texto */
+    --font-display: 'Orbitron', sans-serif; /* Fonte para títulos/destaque */
+}

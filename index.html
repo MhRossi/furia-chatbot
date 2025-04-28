@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot FURIA | Desafio Estágio</title>
+    <link rel="stylesheet" href="/style.css/variables.css">
+    <link rel="stylesheet" href="/style.css/sidebar.css">
+    <link rel="stylesheet" href="/style.css/main.css">
+    <link rel="stylesheet" href="/style.css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="layout">
+
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <img src="/assets/logo furia.png" alt="Logo FURIA Menor">
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li>
+                        <a href="#" title="Calendário de Jogos">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="nav-text">Calendário</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Vídeos/Streams">
+                            <i class="fas fa-video"></i>
+                            <span class="nav-text">Vídeos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Quiz da FURIA">
+                            <i class="fas fa-question-circle"></i>
+                            <span class="nav-text">Quiz</span>
+                        </a>
+                    </li>
+                    </ul>
+            </nav>
+        </aside>
+
+        <div class="main-content">
+            <div class="chat-wrapper">
+                <header class="chat-header">
+                    <div class="header-logo">
+                        <img src="/assets/logo furia.png" alt="Logo FURIA Header">
+                    </div>
+                    <div class="header-title">
+                        <h1>ChatBot FÚRIA</h1>
+                        <p>🖤 Fala com a Fera! Pergunte sobre jogos, escalação, etc.</p>
+                    </div>
+                </header>
+
+                <div class="chat-container">
+                    <div id="chat-box">
+                        </div>
+                    <div class="input-area">
+                        <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+                        <button id="send-btn">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> <footer>
+        <p>Projeto desenvolvido para o desafio FURIA.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
