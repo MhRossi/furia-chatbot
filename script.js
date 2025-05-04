@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const backToChatButton = document.getElementById('back-to-chat-button');
 
     if (chatArea.style.display !== 'none') {
-    addMessage("🖤 Olá! Sou o Chatbot da Pantera! Pergunte sobre o time de CS2 da FURIA ou apenas VAMO bater um papo!", 'bot-message');
+    addMessage("🖤 Olá! Sou o Pantera! Pergunte sobre o time de CS2 da FURIA ou apenas VAMO bater um papo!", 'bot-message');
     }
 
     function sendMessage() {
