@@ -87,11 +87,11 @@ VAMO! Essa é a força que entra no servidor!`;
 
 Infelizmente, a FURIA enfrentou uma sequência de três derrotas consecutivas após a vitória contra a Apogee. VAMO por cima na próxima!`;
         } else if (lowerCaseMessage.includes('ousadia e alegria')) {
-            return "Ousadia e Alegria no CS2 é a nossa marca! É ir pra cima, buscar jogadas inesperadas e se divertir no processo, sempre comFURIOSIDADE!";
+            return "Ousadia e Alegria no CS2 é a nossa marca! É ir pra cima, buscar jogadas inesperadas e se divertir no processo, sempre com FURIOSIDADE!";
         } else if (lowerCaseMessage.includes('vamo')) {
             return "VAMO! Esse grito incendeia o rush no CS2! Determinação e união em cada round!";
         } else if (lowerCaseMessage.includes('diadefuria') || lowerCaseMessage.includes('dia de furia')) {
-            return "#DIADEFURIA no CS2 é quando a galera se reúne praPÚBLICA a Pantera no major! Sente a pressão!";
+            return "#DIADEFURIA no CS2 é quando a galera se reúne pra apoiar a Pantera no major! Sente a pressão!";
         } else if (lowerCaseMessage.includes('historia') || lowerCaseMessage.includes('fundação') || lowerCaseMessage.includes('começou')) {
             return "A FURIA nasceu em 2017 focada no CS. Conquistamos nosso espaço mostrando garra e Ousadia! VAMO construir o futuro do CS!";
         } else if (lowerCaseMessage.includes('quem é você') || lowerCaseMessage.includes('o que você faz') || lowerCaseMessage.includes('sua função')) {
@@ -101,7 +101,7 @@ Infelizmente, a FURIA enfrentou uma sequência de três derrotas consecutivas ap
         }
 
         const defaultResponses = [
-            "Hmm, essa informação eu não tenho no meu radar sobre o CS2. PodePÚBLICA de outra forma?",
+            "Hmm, essa informação eu não tenho no meu radar sobre o CS2. Pode escrever de outra forma?",
             "Interessante! Minha FURIOSIDADE está focada no CS2. Tem outra pergunta sobre o time?",
             "VAMO tentar de novo! Pergunte algo específico sobre a FURIA no Counter-Strike.",
         ];
