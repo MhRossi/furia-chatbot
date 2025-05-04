@@ -1,17 +1,15 @@
-/* Estilos para o Rodapé */
 footer {
-    background-color: transparent; /* Fundo transparente */
-    color: #bbb; /* Cor do texto (mantida para ser visível sobre o fundo preto) */
+    background-color: transparent;
+    color: var(--subtle-text-color);
     text-align: center;
     padding: 15px;
     font-size: 0.9em;
-    /* A borda superior pode ser mantida paraPÚBLICA se desejar */
-    border-top: 1px transparent;
-    width: 100%; /* Garante que o rodapé ocupe toda a largura */
+    border-top: 1px solid var(--border-color);
+    width: 100%;
     box-sizing: border-box;
 }
 
 footer p {
     margin: 0;
-    font-family: 'Roboto', sans-serif; /* Usando a fonte para o rodapé */
+    font-family: var(--font-main);
 }
