@@ -100,46 +100,45 @@ body {
     margin-left: auto;
 }
 
-/* Área de Input e Botão */
+
 .input-area {
-  display: flex;
-  padding: 10px 15px;
-  background-color:transparent;
-  border-top: 0px solid var(--border-color);
-  /* visibility: hidden; <--- REMOVA ESTA LINHA */
+display: flex;
+padding: 10px 15px;
+background-color:transparent;
+border-top: 0px solid var(--border-color);
 }
 
-/* O restante dos estilos para #user-input e #send-btn permanecem iguais */
+
 #user-input {
-  flex-grow: 1;
-  padding: 10px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  margin-right: 10px;
-  background-color:black;
-  color:#fff;
-  font-family: var(--font-main);
+flex-grow: 1;
+padding: 10px;
+border: none;
+outline: none;
+border-radius: 5px;
+margin-right: 10px;
+background-color:black;
+color:#fff;
+font-family: var(--font-main);
 }
 
 #user-input::placeholder {
-  color:#fff;
+color:#fff;
 }
 
 #send-btn {
-  padding: 10px 15px;
-  background-color: var(--bot-message-bg);
-  color: var(--text-color);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-family: var(--font-display);
-  text-transform: uppercase;
+padding: 10px 15px;
+background-color: var(--bot-message-bg);
+color: var(--text-color);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+font-family: var(--font-display);
+text-transform: uppercase;
 }
 
 #send-btn:hover {
-  background-color: var(--button-hover-bg);
+background-color: var(--button-hover-bg);
 }
 
 .typing-indicator {
@@ -186,11 +185,11 @@ body {
 }
 
 #quiz-area {
-    display: none; /* Oculto por padrão */
+    display: none;
 }
 
 #chat-area {
-    display: flex; /* Visível por padrão */
+    display: flex;
     animation: glowing-border 2s infinite alternate;
 }
 
@@ -326,6 +325,6 @@ body {
 }
 
 #chat-box {
-  scrollbar-width: thin;
-  scrollbar-color: var(--input-bg) transparent;
+scrollbar-width: thin;
+scrollbar-color: var(--input-bg) transparent;
 }

@@ -169,12 +169,7 @@ function endQuiz() {
     resultContainer.style.display = 'block';
     console.log("Quiz ended. Displaying results.");
 
-     // Volta para o chat automaticamente após exibir resultado (opcional, remova ou adicione delay se quiser)
-     // if (typeof window.showChatAreaFromQuiz === 'function') {
-     //      window.showChatAreaFromQuiz();
-     // } else {
-     //     console.error("showChatAreaFromQuiz function not available to return to chat.");
-     // }
+
 }
 
 function resetQuiz() {
